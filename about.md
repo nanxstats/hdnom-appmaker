@@ -1,4 +1,8 @@
 
-# About this nomogram
+# About
 
-This nomogram app is proudly made by hdnom-appmaker.
+Please edit me.
+
+## Disclaimer
+
+Disclaimer about using this nomogram app.
