@@ -1,12 +1,13 @@
 library('shiny')
 library('hdnom')
 
-# To make your own nomogram app, please do the three following things:
+# To make your own nomogram app, please follow the three steps:
 
-# 1. Put the downloaded `hdnom-model.Rdata` under the `mode/` folder
+# 1. Put the downloaded `hdnom-model.Rdata` under the `mode/` folder.
 load('model/hdnom-model.Rdata')
 
-# 2. Choose the delimiter type of your data from 'comma', 'tab', and 'semi':
+# 2. Change the follwing delimiter type according to your data.
+#    Possible options: 'comma', 'tab', and 'semi':
 sep_type = 'comma'
 
 # then put the data used to build the model under the `data/` folder:
@@ -14,9 +15,10 @@ sep_type = 'comma'
 # If you chose 'tab',   then x.tsv and y.tsv (tab-separated)
 # If you chose 'semi',  then x.txt and y.txt (semicolon-separated)
 
-# 3. Edit the app title in `ui.R` and edit `about.md`.
+# 3. Edit the app title in `ui.R`, then edit `about.md` to put in
+#    your introduction and disclaimer.
 
-# That's it. Enjoy!
+# That's it! Now you may test your app with `shiny::runApp()`.
 
 switch (sep_type,
         comma = {
