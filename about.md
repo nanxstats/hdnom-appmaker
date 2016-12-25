@@ -1,8 +1,7 @@
-
 # About
 
 Please edit me.
 
 ## Disclaimer
 
-Disclaimer about using this nomogram app.
+Disclaimer on using this nomogram web application.

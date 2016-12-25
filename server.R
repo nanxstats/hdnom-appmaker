@@ -1,7 +1,7 @@
 library('shiny')
 library('hdnom')
 
-# To make your own nomogram app, please follow the three steps:
+# To make your own nomogram web application, please follow these steps:
 
 # 1. Put the downloaded `hdnom-model.Rdata` under the `mode/` folder.
 load('model/hdnom-model.Rdata')
