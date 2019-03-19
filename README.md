@@ -1,7 +1,6 @@
-# Application Maker for hdnom  <a href="http://hdnom.org"><img src="http://nanx.me/images/project-hdnom.png" align="right" alt="logo" height="180" width="180" /></a>
+# App maker for hdnom  <a href="https://nanx.me/hdnom/"><img src="https://nanx.me/image/project-hdnom.png" align="right" alt="logo" height="180" width="180" /></a>
 
-The hdnom appmaker is a template Shiny app for hdnom and hdnom.io users to make
-their own nomogram-based online prediction apps.
+The hdnom appmaker is a template Shiny app for hdnom and hdnom.io users to make their own nomogram-based online prediction apps.
 
 ## Try it out
 
@@ -15,14 +14,14 @@ install.packages("shiny")
 Run the template app:
 
 ```r
-shiny::runGitHub("road2stat/hdnom-appmaker")
+shiny::runGitHub("nanxstats/hdnom-appmaker")
 ```
 
 If error happens when using `shiny::runGitHub`, please try to clone the
 Shiny app to local machine manually:
 
 ```bash
-git clone https://github.com/road2stat/hdnom-appmaker.git
+git clone https://github.com/nanxstats/hdnom-appmaker.git
 ```
 
 then start R, use
